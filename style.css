@@ -152,7 +152,6 @@ img {
   font-size: 14px;
   line-height: 17px;
   color: #9F9F9F;
-
 }
 
 .card {
@@ -221,3 +220,70 @@ img {
   border: 1px solid #FF6A6A;
 }
 
+@media (min-width: 768px) and (max-width: 1600px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .navigation1 {
+    margin-left: 32px;
+  }
+  
+  .navigation2 {
+    margin-right: 32px;
+  }
+
+  .baner {
+    display: flex;
+  }
+
+  .baner img {
+    width: 386px;
+  }
+
+  .Text {
+    margin-left: 39px;
+  }
+  
+  .Text h2 {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  
+  .Text h3 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .offer {
+    max-width: 736px;
+    gap: 19px;
+    margin-bottom: 110px;
+  }
+
+  .zagalowog {
+    margin-bottom: 73px;
+  }
+  
+  .zagalowog h2 {
+    margin-bottom: 3,3px;
+  }
+
+  .card {
+    margin-bottom: 33px;
+    gap: 16px;
+  }
+
+  .card2 h3 {
+    margin-bottom: 13px;
+  }
+  
+  .card2 p {
+    margin-bottom: 18px;
+  }
+  
+  .card2 h2 {
+    margin-bottom: 20px;
+  }
+
+}
